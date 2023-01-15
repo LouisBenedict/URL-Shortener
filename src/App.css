@@ -93,3 +93,116 @@ header > .header-container > nav > .login > #sign-up:hover {
   background-color: hsl(180, 66%, 49%);
   color: white;
 }
+
+.output > button {
+  font-family: poppins;
+  font-weight: 500;
+  background-color: hsl(180, 66%, 49%);
+  color: white;
+  border: none;
+  border-radius: 1.5rem;
+  padding: 0.5rem 1rem;
+  margin: 2rem;
+  margin-left: 0;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  header > .header-container > nav > .login > #sign-up {
+    margin-right: 2rem;
+  }
+
+  header > .header-container > nav > .list > a {
+    font-size: 0.8rem;
+  }
+
+  header > .header-container > nav > .login > a {
+    font-size: 0.8rem;
+    position: relative;
+    text-align: right;
+    left: 250%;
+  }
+
+  header > .header-container > nav > .login > #sign-up {
+    font-size: 0.8rem;
+  }
+
+  header > .header-container > nav > .login > #sign-up:hover {
+    font-size: 0.8rem;
+  }
+
+  header > .header-container > nav > .list > a:hover {
+    font-size: 0.8rem;
+  }
+
+  header > .header-container > nav > h1 {
+    font-size: 1.5rem;
+  }
+
+  .output > button.Copied {
+    font-size: 0.8rem;
+  }
+
+  .output > button.Copied:hover {
+    font-size: 0.8rem;
+  }
+
+  .output > button {
+    font-size: 0.8rem;
+  }
+
+  .output > button:hover {
+    font-size: 0.8rem;
+  }
+
+  .input > input {
+    font-size: 0.8rem;
+  }
+
+  .input > button {
+    font-size: 0.8rem;
+  }
+
+  .input > button:hover {
+    font-size: 0.8rem;
+  }
+
+  .input > h1 {
+    font-size: 1.5rem;
+  }
+
+  .input > p {
+    font-size: 0.8rem;
+  }
+
+  .input > p > a {
+    font-size: 0.8rem;
+  }
+
+  .input > p > a:hover {
+    font-size: 0.8rem;
+  }
+
+  .input > p > a > span {
+    font-size: 0.8rem;
+  }
+
+  .input > p > a > span:hover {
+    font-size: 0.8rem;
+  }
+
+  .input > p > a > span > span {
+    font-size: 0.8rem;
+  }
+
+  .input > p > a > span > span:hover {
+    font-size: 0.8rem;
+  }
+
+  .input > p > a > span > span > span {
+    font-size: 0.8rem;
+  }
+
+  .input > p > a > span > span > span:hover {
+    font-size: 0.8rem;
+  }
+}
