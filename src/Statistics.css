@@ -7,7 +7,7 @@
 }
 
 #advanced-statistics {
-    display: inline-block;
+    display: inline;
     font-family: Poppins;
     font-weight: 500;
     position: relative;
@@ -19,7 +19,6 @@
     color:  black;
     margin: 2rem auto;
     text-align: center;
-    width: 100%;
 }
 
 #advanced-statistics > p {
