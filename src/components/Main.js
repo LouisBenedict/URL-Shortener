@@ -14,7 +14,10 @@ function Main() {
         <header>
             <div className='header-container'>
                 <nav>
-                    <h1>Shortly</h1>
+                    <div id='logo'>
+                        <h1>Shortly</h1>
+                    </div>
+
                     <div className='list'>
                         <a href='#'>Features</a>
                         <a href='#'>Pricing</a>
@@ -31,7 +34,10 @@ function Main() {
         <div className='more-than'>
             <div className='brand-promise'>
                 <h1 id='tagline'>More than just <br/> shorter links</h1>
-                <p id='tagline-2'>Build your brand’s recognition and get detailed <br/> insights on how your links are performing.</p>
+                <p id='tagline-2'>
+                    Build your brand’s recognition and get detailed <br/> 
+                    insights on how your links are performing.
+                </p>
             </div>
             <button id='get-started'>Get Started</button>           
         </div>

@@ -1,14 +1,13 @@
 .input-container {
     background-image: url("./bg-shorten-desktop.svg");
-    width: 65%;
+    width: 67%;
     position: relative;
-    left: 10%;
+    left: 17.8%;
     display: flex;
     justify-content: center;
     background-color: hsl(257, 27%, 26%);
     border-radius: 10px;
     padding: 2rem;
-    margin-left: 7%;
 }
 
 input {
@@ -44,11 +43,18 @@ button:hover {
     cursor: pointer;
 }
 
+
 @media screen and (max-width: 1024px) {
     .input-container {
-        width: 100%;
+        background-image: url("./bg-shorten-mobile.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 65%;
         left: 0;
         margin-left: 0;
+
+        margin: 0 auto;
     }
 
     input {
@@ -56,15 +62,17 @@ button:hover {
     }
 }
 
+
 @media screen and (max-width: 768px) {
     .input-container {
         background-image: url("./bg-shorten-mobile.svg");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        width: 100%;
-        left: 0;
-        margin-left: 0;
+        width: 75%;
+        height: 8rem;
+        
+        margin: 0 auto;
     }
 
     input {
